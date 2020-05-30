@@ -1,0 +1,15 @@
+Installation
+1. Install React Navigation
+npm install react-navigation
+
+2. Install Dependencies
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+3. Install React Navigation Stack
+npm install react-navigation-stack @react-native-community/masked-view
+npm install react-navigation-tabs
+
+4. Start the app and clear cache with npm start -c
+
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
